@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tryTuesday/static/css/main.39b5d991.chunk.css",
-    "main.js": "/tryTuesday/static/js/main.b89af066.chunk.js",
-    "main.js.map": "/tryTuesday/static/js/main.b89af066.chunk.js.map",
+    "main.js": "/tryTuesday/static/js/main.bdbb5a5f.chunk.js",
+    "main.js.map": "/tryTuesday/static/js/main.bdbb5a5f.chunk.js.map",
     "runtime-main.js": "/tryTuesday/static/js/runtime-main.2b2e3fac.js",
     "runtime-main.js.map": "/tryTuesday/static/js/runtime-main.2b2e3fac.js.map",
     "static/js/2.a62122f2.chunk.js": "/tryTuesday/static/js/2.a62122f2.chunk.js",
     "static/js/2.a62122f2.chunk.js.map": "/tryTuesday/static/js/2.a62122f2.chunk.js.map",
     "index.html": "/tryTuesday/index.html",
-    "precache-manifest.00b4851f50dce4ac12ea8cd1a4520459.js": "/tryTuesday/precache-manifest.00b4851f50dce4ac12ea8cd1a4520459.js",
+    "precache-manifest.cb4b1bf46b12dc854213fb153db879cd.js": "/tryTuesday/precache-manifest.cb4b1bf46b12dc854213fb153db879cd.js",
     "service-worker.js": "/tryTuesday/service-worker.js",
     "static/css/main.39b5d991.chunk.css.map": "/tryTuesday/static/css/main.39b5d991.chunk.css.map",
     "static/js/2.a62122f2.chunk.js.LICENSE.txt": "/tryTuesday/static/js/2.a62122f2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2b2e3fac.js",
     "static/js/2.a62122f2.chunk.js",
     "static/css/main.39b5d991.chunk.css",
-    "static/js/main.b89af066.chunk.js"
+    "static/js/main.bdbb5a5f.chunk.js"
   ]
 }
