@@ -78,7 +78,7 @@ onClick={()=>{
 
 
 <h5 style={{display:'inline',margin:40,position:'relative',top:14,fontWeight:'lighter'}}>
-STEP {count} OF 6:    
+STEP {history.location.pathname.split('p')[1]} OF 6:    
 
 <span style={{marginLeft:40}}>
 {steps[count-1].toUpperCase()}

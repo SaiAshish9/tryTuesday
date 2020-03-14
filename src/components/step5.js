@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 
+import {withRouter} from 'react-router-dom'
 
-const Step5=()=>{
+const Step5=({history})=>{
 
     const [c,setColor]=useState('black')
     const [length,setLength]=useState('')
@@ -41,6 +42,7 @@ Which situation you want to be styled for
        onClick={()=>{
        setColor('black')
        setLength(x)
+       history.push('/step6')
        }
        }
        >
@@ -57,4 +59,4 @@ Which situation you want to be styled for
 
 }
 
-export default Step5
+export default withRouter(Step5)

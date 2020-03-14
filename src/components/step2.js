@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 
+import {withRouter} from 'react-router-dom'
 
-const Step2=()=>{
+const Step2=({history})=>{
 
     const [c,setColor]=useState('black')
     const [length,setLength]=useState('')
@@ -42,6 +43,7 @@ The basic shape that your body takes that can be categorised and referred to whi
        onClick={()=>{
        setColor('black')
        setLength(x)
+       history.push('/step3')
        }
        }
        >
@@ -58,4 +60,4 @@ The basic shape that your body takes that can be categorised and referred to whi
 
 }
 
-export default Step2
+export default withRouter(Step2)

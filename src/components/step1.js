@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 
+import {withRouter} from 'react-router-dom'
 
-const Step1=()=>{
+const Step1=({history})=>{
 
     const [c,setColor]=useState('black')
     const [length,setLength]=useState('')
@@ -37,6 +38,7 @@ return(
        onClick={()=>{
        setColor('black')
        setLength(x)
+       history.push('/step2')
        }
        }
        >
@@ -53,4 +55,4 @@ return(
 
 }
 
-export default Step1
+export default withRouter(Step1)

@@ -1,7 +1,9 @@
 import React,{useState} from 'react'
 
+import {withRouter} from 'react-router-dom'
 
-const Step3=()=>{
+
+const Step3=({history})=>{
 
     const [c,setColor]=useState('black')
     const [length,setLength]=useState('')
@@ -42,6 +44,7 @@ The category of clothes that you usually wear, are comfortable with or matches y
        onClick={()=>{
        setColor('black')
        setLength(x)
+       history.push('/step4')
        }
        }
        >
@@ -58,4 +61,4 @@ The category of clothes that you usually wear, are comfortable with or matches y
 
 }
 
-export default Step3
+export default withRouter(Step3)

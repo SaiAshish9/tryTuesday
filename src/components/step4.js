@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 
+import {withRouter} from 'react-router-dom'
 
-const Step4=()=>{
+const Step4=({history})=>{
 
     const [c,setColor]=useState('black')
     const [length,setLength]=useState('')
@@ -40,6 +41,7 @@ The fit you usually wear in dresses or bottoms
        onClick={()=>{
        setColor('black')
        setLength(x)
+       history.push('/step5')
        }
        }
        >
@@ -56,4 +58,4 @@ The fit you usually wear in dresses or bottoms
 
 }
 
-export default Step4
+export default withRouter(Step4)
