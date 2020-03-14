@@ -2,13 +2,15 @@
   "name": "trytuesday",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://saiashish9.github.io/tryTuesday",
   "dependencies": {
-    "redux": "4.0.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.4.0",
     "react-redux": "7.0.3",
-    "react-router-dom": "5.0.0"
+    "react-router-dom": "5.0.0",
+    "react-scripts": "3.4.0",
+    "redux": "4.0.1"
   },
   "devDependencies": {
     "react-scripts": "3.0.0"
@@ -20,6 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
