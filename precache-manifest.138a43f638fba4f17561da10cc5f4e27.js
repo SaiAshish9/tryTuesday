@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "953a9e92eacef29d67fb7b688992d70c",
+    "revision": "5e1a4a5389beab3ba83ee5739255bb98",
     "url": "/tryTuesday/index.html"
   },
   {
-    "revision": "d37fd1c0b79556f87ee8",
+    "revision": "46f1a1cd1a5b7bbd73c4",
     "url": "/tryTuesday/static/css/main.39b5d991.chunk.css"
   },
   {
-    "revision": "29a32e0220f700da45dd",
-    "url": "/tryTuesday/static/js/2.a62122f2.chunk.js"
+    "revision": "62e3ee8211cf61ddc847",
+    "url": "/tryTuesday/static/js/2.19676586.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/tryTuesday/static/js/2.a62122f2.chunk.js.LICENSE.txt"
+    "url": "/tryTuesday/static/js/2.19676586.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d37fd1c0b79556f87ee8",
-    "url": "/tryTuesday/static/js/main.bdbb5a5f.chunk.js"
+    "revision": "46f1a1cd1a5b7bbd73c4",
+    "url": "/tryTuesday/static/js/main.d9efe446.chunk.js"
   },
   {
     "revision": "05178dfebd2d35dadc3c",
